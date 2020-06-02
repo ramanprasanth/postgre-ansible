@@ -2,14 +2,14 @@
 - version: v1alpha1
   group: postgresql.operator.com
   kind: PostgreSQL
-  role: /opt/ansible/roles/postgresql
+  role: /roles/postgresql
 
 - version: v1alpha1
   group: postgresql.operator.com
   kind: PgBackup
-  role: /opt/ansible/roles/pgbackup
+  role: /roles/pgbackup
 
 - version: v1alpha1
   group: postgresql.operator.com
   kind: PgRestore
-  role: /opt/ansible/roles/pgrestore
+  role: /roles/pgrestore

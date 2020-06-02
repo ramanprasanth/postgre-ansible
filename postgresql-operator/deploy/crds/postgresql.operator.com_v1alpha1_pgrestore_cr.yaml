@@ -1,7 +1,7 @@
 apiVersion: postgresql.operator.com/v1alpha1
 kind: PgRestore
 metadata:
-  name: example-pgrestore
+  name: postgres-pgrestore
 spec:
   image: applicadb/postgres-python
   serviceIp: 10.103.56.125

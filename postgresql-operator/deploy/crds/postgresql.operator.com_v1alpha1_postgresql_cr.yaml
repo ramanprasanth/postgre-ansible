@@ -1,7 +1,7 @@
 apiVersion: postgresql.operator.com/v1alpha1
 kind: PostgreSQL
 metadata:
-  name: example-postgresql
+  name: postgresql
 spec:
   # Add fields here
   image: postgres:10.4
